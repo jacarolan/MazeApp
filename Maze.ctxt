@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=fname
+comment0.target=boolean\ loadMaze(java.lang.String)
+comment1.params=q
+comment1.target=Square[]\ getNeighbors(Square)
+comment2.params=
+comment2.target=void\ reset()
+comment3.params=
+comment3.target=Square\ getStart()
+comment4.params=
+comment4.target=Square\ getEnd()
+comment5.params=
+comment5.target=java.util.ArrayList\ getWalls()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

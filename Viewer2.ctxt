@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=title\ contents\ width\ height\ xpos\ ypos
+comment0.target=Viewer2(java.lang.String,\ Components2,\ int,\ int,\ int,\ int)
+comment1.params=
+comment1.target=Components2\ getContent()
+comment2.params=
+comment2.target=void\ test()
+comment3.params=path\ mp
+comment3.target=void\ visualize(int[][],\ boolean[][])
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment5.params=inp\ init
+comment5.target=double[]\ flip(double[],\ double)
+comment6.params=arr
+comment6.target=void\ print(java.lang.Object[][])
+comment7.params=arr
+comment7.target=void\ print(int[][])
+comment8.params=path
+comment8.target=java.util.ArrayList\ partition(int[][])
+comment8.text=private\ static\ void\ print(Object[]\ arr)\ {\r\n\ \ \ \ for(int\ ii\ \=\ 0;\ ii\ <\ arr.length;\ ii++)\ {\r\n\ \ \ \ System.out.print(arr[ii]+"\ ");\r\n\ \ \ \ }\r\n}
+comment9.params=inp
+comment9.target=java.lang.Integer[][]\ arToL(java.util.ArrayList)
+numComments=10

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=item
+comment0.target=void\ push(java.lang.Object)
+comment0.text=\r\n\ Add\ an\ item\ onto\ the\ stack\r\n\ @param\ item\ the\ data\ item\ to\ add\ (of\ type\ T)\r\n
+comment1.params=
+comment1.target=java.lang.Object\ pop()
+comment1.text=\r\n\ Remove\ the\ top\ item\ from\ the\ stack\r\n\ @return\ the\ top\ item\ in\ the\ stack\r\n\ @throws\ NoSuchElementException\ if\ the\ stack\ is\ empty\r\n
+comment2.params=
+comment2.target=java.lang.Object\ top()
+comment2.text=\r\n\ Display\ the\ top\ item\ from\ the\ stack\ without\ removing\ it\r\n\ @return\ the\ top\ item\ in\ the\ stack\r\n\ @throws\ NoSuchElementException\ if\ the\ stack\ is\ empty\r\n
+comment3.params=
+comment3.target=int\ size()
+comment3.text=\r\n\ Find\ how\ many\ items\ are\ in\ the\ stack\r\n\ @return\ the\ number\ of\ items\ in\ the\ stack\r\n
+comment4.params=
+comment4.target=StackADT\ clone()
+comment5.params=
+comment5.target=boolean\ isEmpty()
+comment5.text=\r\n\ Determine\ if\ the\ stack\ is\ empty\r\n\ @return\ true\ if\ the\ size\ is\ 0,\ false\ otherwise\r\n
+comment6.params=
+comment6.target=void\ clear()
+comment6.text=\r\n\ Clear\ out\ the\ data\ structure\r\n
+numComments=7

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=item
+comment0.target=void\ enqueue(java.lang.Object)
+comment0.text=\r\n\ Add\ an\ item\ to\ the\ queue\r\n\ @param\ item\ the\ data\ item\ to\ add\ (of\ type\ T)\r\n
+comment1.params=
+comment1.target=java.lang.Object\ dequeue()
+comment1.text=\r\n\ Remove\ the\ front\ item\ from\ the\ queue\r\n\ @return\ the\ front\ item\ in\ the\ queue\r\n\ @throws\ NoSuchElementException\ if\ the\ queue\ is\ empty\r\n
+comment2.params=
+comment2.target=java.lang.Object\ front()
+comment2.text=\r\n\ Return\ the\ front\ item\ in\ the\ queue\ without\ removing\ it\r\n\ @return\ the\ front\ item\ in\ the\ queue\r\n\ @throws\ NoSuchElementException\ if\ the\ queue\ is\ empty\r\n
+comment3.params=
+comment3.target=int\ size()
+comment3.text=\r\n\ Find\ how\ many\ items\ are\ in\ the\ queue\r\n\ @return\ the\ number\ of\ items\ in\ the\ queue\r\n
+comment4.params=
+comment4.target=boolean\ isEmpty()
+comment4.text=\r\n\ Determine\ if\ the\ queue\ is\ empty\r\n\ @return\ true\ if\ the\ size\ is\ 0,\ false\ otherwise\r\n
+comment5.params=
+comment5.target=void\ clear()
+comment5.text=\r\n\ Clear\ out\ the\ data\ structure\r\n
+numComments=6

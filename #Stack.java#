@@ -1,0 +1,53 @@
+import java.util.NoSuchElementException;
+
+public class Stack<T> implements StackADT<T> {
+    private Object[] data;
+    public Stack() {
+	data = new Object[0];
+    }
+    public void push(T item) {
+	Object[] tdata = new Object[data.length];
+	for(int i = 0; i < data.length; i++) {
+	    tdata[i] = data[i];
+	}
+	data = new Object[tdata.length+1];
+	for(int i = 0; i < data.length; i++) {
+	    data[i] = tdata[i];
+	}
+	data[data.length-1] = item;
+    }
+    public T dequeue() throws NoSuchElementException {
+	Object[] tdata = new Object[data.length];
+	for(int i = 0; i < data.length; i++) {
+	    tdata[i] = data[i];
+	}
+	if(tdata.length > 1) {
+	data = new Object[tdata.length-1];
+	for(int i = 1; i < data.length; i++) {
+	    data[i-1] = tdata[i];
+	}
+	return (T)tdata[0];
+	} else {
+	    throw new NoSuchElementException("You cannot pop a Stack with no elements");
+	}
+    }
+    public T front() throws NoSuchElementException {
+	if(data.length > 0) {
+	    return (T)data[0];
+	} else {
+	    throw new NoSuchElementException("You cannot look at the top of a Stack with no elements");
+	}
+    }
+    public int size() {
+	return data.length;
+    }
+    public boolean isEmpty() {
+	if(data.length > 0) {
+	    return false;
+	}
+	return true;
+    }
+    public void clear() {
+	data = new Object[0];
+    }
+}

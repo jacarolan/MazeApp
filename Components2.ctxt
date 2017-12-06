@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=map\ mp\ pf
+comment0.target=Components2(int[][],\ boolean[][],\ java.util.ArrayList)
+comment1.params=
+comment1.target=void\ step()
+comment2.params=g
+comment2.target=void\ paintFieldLines(java.awt.Graphics)
+comment3.params=g
+comment3.target=void\ paintComponent(java.awt.Graphics)
+numComments=4

@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=pinp\ pr
+comment0.target=PathField(int[][],\ int)
+comment1.params=inp
+comment1.target=int[][]\ reverse(int[][])
+comment10.params=x
+comment10.target=double\ curvature(double)
+comment11.params=p
+comment11.target=double[]\ getAccel(double[])
+comment2.params=
+comment2.target=double[]\ xDom()
+comment3.params=
+comment3.target=double[]\ yDom()
+comment4.params=test
+comment4.target=boolean\ inDomain(double[])
+comment5.params=
+comment5.target=int[][]\ getPath()
+comment6.params=n
+comment6.target=java.lang.Double[]\ FourierCoeffs(int)
+comment7.params=x
+comment7.target=double\ point(double)
+comment8.params=x
+comment8.target=double\ deriv(double)
+comment9.params=x
+comment9.target=double\ secondDeriv(double)
+numComments=12
